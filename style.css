@@ -1,13 +1,13 @@
 .jumbotron {
 	padding-top: 6rem;
-	background: #dee2e6;
-	height: ;
+	background: #30475E;
+	/*height: ; #dee2e6 */
 }
 
 #about {
 	padding-top: 3rem;
-	background-color: #a2a8ad;
-	
+	background-color: #8e9499;
+	/*a2a8ad*/
 }
 
 #project {
@@ -33,10 +33,10 @@
 
 }
 
-.bg-ct2 {
-	background-color: #a2a8ads;
+/*.bg-ct2 {
+	background-color: ;
 }
-
+*/
 .bg-ct3 {
 	background-color: #30475E;
 }

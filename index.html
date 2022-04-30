@@ -18,16 +18,16 @@
     <!--Navbar-->
 	<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark shadow">
 	  <div class="container">
-	    <a class="navbar-brand mb-0 h1" href="#">My Portofolio</a>
+	    <a class="navbar-brand mb-0 h1 fw-bold" href="#">My Portofolio</a>
 	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 	      <span class="navbar-toggler-icon"></span>
 	    </button>
 	    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 	      <div class="navbar-nav ms-auto">
-	        <a class="nav-link active" aria-current="page" href="#">Home</a>
-	        <a class="nav-link" href="#about">About</a>
-	        <a class="nav-link" href="#project">Project</a>
-	        <a class="nav-link" href="#contact">Contact</a>
+	        <a class="nav-link fw-bold active" aria-current="page" href="#">Home</a>
+	        <a class="nav-link fw-bold" href="#about">About</a>
+	        <a class="nav-link fw-bold" href="#project">Project</a>
+	        <a class="nav-link fw-bold" href="#contact">Contact</a>
 	        <!--<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>-->
 	      </div>
 	    </div>
@@ -38,13 +38,15 @@
     <!--Jumbotron-->
 	<section class="jumbotron text-center">
 		<img src="FotoProfil.jpg" alt="Hidayat Faturahman" width="200" class="rounded-circle shadow mb-3">
-	  <h1 class="display-4 fw-normal">HIDAYAT FATURAHMAN</h1>
-	  <p class="lead fw-normal">High School Student</p>
+	  <h1 class="display-4 text-light fw-normal">HIDAYAT FATURAHMAN</h1>
+	  <p class="lead text-light fw-normal">High School Student</p>
 	  <!---->
 		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-		  <path fill="#a2a8ad" fill-opacity="1" d="M0,32L180,128L360,96L540,128L720,192L900,160L1080,128L1260,192L1440,64L1440,320L1260,320L1080,320L900,320L720,320L540,320L360,320L180,320L0,320Z"></path>
+			<path fill="#8e9499" fill-opacity="1" 
+				d="M0,64L80,80C160,96,320,128,480,122.7C640,117,800,75,960,48C1120,21,1280,11,1360,5.3L1440,0L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
+			</path>
 		</svg>
-	  
+		
 	</section>
     <!--EndJumbotron-->
 
@@ -80,7 +82,7 @@
  <!--Pembatas :) -->
   <div class="pembatas">
 	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-	  <path fill="#a2a8ad" fill-opacity="1" d="M0,320L288,160L576,224L864,160L1152,224L1440,256L1440,0L1152,0L864,0L576,0L288,0L0,0Z"></path>
+	  <path fill="#8e9499" fill-opacity="1" d="M0,320L288,160L576,224L864,160L1152,224L1440,256L1440,0L1152,0L864,0L576,0L288,0L0,0Z"></path>
 	  <path fill="#30475E" fill-opacity="1" d="M0,320L288,160L576,224L864,160L1152,224L1440,256L1440,320L1152,320L864,320L576,320L288,320L0,320Z"></path>
 	</svg>
 	</div>
@@ -165,15 +167,16 @@
     		<div class="row justify-content-center fs-5 pb-9 fw-normal">
     			<div class="col-md-5">
 						<form>
-							<!----
+							
 						  <div class="mb-4">
-						    <label for="name" class="form-label">Nama Lengkap</label>
-						    <input type="email" class="form-control" id="name" aria-describedby="name">
+						    <label for="name" class="form-label fw-bold text-light">Nama Lengkap</label>
+						    <input type="email" class="form-control fw-bold shadow" id="name" aria-describedby="name" placeholder="Masukkan Nama Lengkap...">
 						  </div>
 						  <div class="mb-4">
-						    <label for="email" class="form-label">Email</label>
-						    <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="example@gmail.com">
-						  </div><!---->
+						    <label for="email" class="form-label fw-bold text-light">Email</label>
+						    <input type="email" class="form-control fw-bold shadow" id="email" aria-describedby="email" placeholder="example@gmail.com">
+						  </div>
+							<!--
 							<div class="form-floating shadow mb-3">
 							  <input type="email" class="form-control" id="name" placeholder="Nama Lengkap">
 							  <label for="name">Nama Lengkap</label>
@@ -181,8 +184,8 @@
 							<div class="form-floating shadow mb-3">
 							  <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="name@example.com">
 							  <label for="email">Email</label>
-							</div>
-						  <button type="submit" class="btn shadow text-light btn-lg mt-3 mb-3">Kirim</button>
+							</div>-->
+						  <button type="submit" class="btn shadow fw-bold text-light btn-lg mt-3 mb-3">Kirim</button>
 						</form>
     			</div>
     		</div>
