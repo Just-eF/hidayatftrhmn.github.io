@@ -1,0 +1,63 @@
+.jumbotron {
+	padding-top: 6rem;
+	background: #dee2e6;
+	height: ;
+}
+
+#about {
+	padding-top: 3rem;
+	background-color: #a2a8ad;
+	
+}
+
+#project {
+	background-color: #30475E;
+}
+
+.card {
+	background-color: #222831;
+	border-radius: 15px;
+}
+
+.card-body {
+	background-color: #222831;
+	border-radius: 15px;
+}
+
+#contact {
+	background-color: #F05454;
+}
+
+.btn {
+	background-color: #30475E;
+
+}
+
+.bg-ct2 {
+	background-color: #a2a8ads;
+}
+
+.bg-ct3 {
+	background-color: #30475E;
+}
+
+
+.pt-6 {
+	padding-top: 6em;
+}
+
+.pt-8 {
+	padding-top: 8em;
+}
+
+.mb-9 {
+	margin-bottom: 9em;
+}
+
+.mb-10{
+	margin-bottom: 10em;
+}
+
+footer {
+	background-color: #F05454;
+}
